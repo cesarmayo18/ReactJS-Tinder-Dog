@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 1rem;
+  height:85vh;
+}
+
+.main {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  .buttons {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    button {
+      border-radius: 12px;
+      border: white 1px solid;
+      width: 5rem;
+    }
+  }
+}
